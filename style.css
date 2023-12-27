@@ -1,0 +1,329 @@
+body {
+	font-family: 'Arial', sans-serif;
+	line-height: 1.6;
+	background-color: #C1C8E4;
+	color: #333;
+	margin: 20px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background: linear-gradient(to right, #5f2c82, #49a09d);
+
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 1em;
+}
+
+div.introduction {
+	color: #fff;
+}
+
+h1.my-header {
+	background-color: #49a09d;
+	color: #000000;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Arial', sans-serif;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+.my-header {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(40) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+p{
+	font-family: 'Georgia', serif;
+}
+h2.test,
+h2.gal,
+h1.countries,
+h1.comments,
+h1.Works,
+h1.hobbies,
+h1.goals,
+h1.reflection {
+	color: #007bff;
+	background-color: #fff;
+	font-family: 'arial', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+li.hike,
+li.ball,
+li.movie,
+li.read,
+li.travel {
+	font-weight: bold;
+}
+
+div.gallery {
+	border-style: double;
+}
+
+h1.hobbies,
+h1.Works,
+h1.goals,
+h1.countries,
+h1.reflection,
+h1.journal,
+h1.comments,
+h2.test,
+h2.gal {
+	color: #fff;
+	background:#5f2c82;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+
+div.gallery {
+	background: linear-gradient(to right, #5f2c82, #49a09d);
+	border-style: ridge;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+
+div.comments {
+	background-color: #fff;
+	border-style: ridge;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+
+div.my-hobbies,
+div.my-works,
+div.my-goals,
+div.testimonial,
+div.comment-form,
+div.countries,
+div.reflection,
+div.journal,
+.form {
+	background-color: #fff;
+	border-style: ridge;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+
+ul,
+ol {
+	font-size: 1.1em;
+	margin-bottom: 15px;
+}
+
+h2.test {
+	font-size: 1.5em;
+}
+
+div.input-style {
+	white-space: 'text-wrap';
+}
+
+footer {
+	background: #49a09d;
+	color: #000000;
+	text-align: center;
+	padding: 1em;
+	position: sticky;
+	bottom: 0;
+	width: 96%
+}
+
+div.journal {
+	font-family: cursive;
+}
+
+.comments {
+	color: #007bff;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+#sortOrder {
+	padding: 8px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+.comment-form p {
+	font-style: arial ;
+	margin-bottom: 15px;
+	font-size: 1.1em;
+}
+
+.comment-form p strong {
+	font-style: arial ;
+	color: #49a09d;
+}
+
+.comment-form p em {
+	font-style: normal;
+}
+
+form {
+	margin-top: 20px;
+}
+
+.comment {
+	color: #007bff;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+.input-style label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+.input-style input,
+.input-style textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+#comment_button {
+	background-color: #49a09d;;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#comment_button:disabled {
+	background-color: #ddd;
+	color: #333;
+	cursor: not-allowed;
+}
+
+.comment h3 {
+	color: #007bff;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+#comment_button:hover {
+    background: linear-gradient(to right, #5f2c82, #49a09d);
+}
+
+div.gallery {
+	text-align: center;
+}
+
+h2.gal {
+	text-align: left;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+img.beach1 {
+	-webkit-filter: grayscale(100%);
+	/* Safari 6.0 - 9.0 */
+	filter: grayscale(200%);
+}
+
+img.beach2 {
+	-webkit-filter: blur(3px);
+	/* Safari 6.0 - 9.0 */
+	filter: blur(2px);
+}
+
+img.beach3 {
+	-webkit-filter: brightness(100%);
+	/* Safari 6.0 - 9.0 */
+	filter: brightness(100%);
+}
+
+img.nature1 {
+	-webkit-filter: sepia(100%);
+	/* Safari 6.0 - 9.0 */
+	filter: sepia(100%);
+}
+
+img.nature2 {
+	-webkit-filter: invert(100%);
+	/* Safari 6.0 - 9.0 */
+	filter: invert(100%);
+}
+
+img.nature3 {
+	-webkit-filter: opacity(50%);
+	/* Safari 6.0 - 9.0 */
+	filter: opacity(50%);
+}
+a.button:hover {
+    background: linear-gradient(to right, #5f2c82, #49a09d);
+}
+
+a.button {
+	text-decoration: none;
+    display: inline-block;
+    background-color: #49a09d;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    animation: scale 2s infinite;
+}
+
+@keyframes scale {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+h4.caption{
+	font-family: 'Montserrat', sans-serif;
+}
