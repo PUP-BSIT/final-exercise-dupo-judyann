@@ -79,7 +79,7 @@ h1.my-header {
 
 .myimage {
 	border-radius: 10px;
-	width: 700px;
+	width: 800px;
 	height: 500px;
 	margin: 5px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -108,7 +108,12 @@ h1.my-header {
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 	border-radius: 10px;
 }
-
+div.my-hobbies
+{
+	font-style: italic;
+	font-weight:bold;
+	font-family: sans-serif;
+}
 div h3 {
 	text-align: center;
 }
@@ -148,7 +153,8 @@ div h3 {
 }
 
 p {
-	font-family: 'Georgia', serif;
+	font-family: 'Georgia';
+
 }
 
 #goals {
@@ -224,17 +230,6 @@ div.gallery {
 }
 
 div.my-hobbies h1 {
-	color: #fff;
-	background: #CD8D7A;
-	font-size: 1.5em;
-	font-weight: bold;
-	padding: 10px;
-	margin-bottom: 20px;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-	border-radius: 10px;
-}
-
-h2 {
 	color: #fff;
 	background: #CD8D7A;
 	font-size: 1.5em;
@@ -347,7 +342,6 @@ div.reflection,
 div.journal,
 .form {
 	background-color: #EAECCC;
-	;
 	border-style: ridge;
 	padding: 20px;
 	margin-bottom: 20px;
@@ -370,7 +364,7 @@ div.input-style {
 }
 
 div.journal {
-	font-family: cursive;
+	font-style: italic;
 }
 
 .comments {
