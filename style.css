@@ -108,7 +108,7 @@ h1.my-header {
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 	border-radius: 10px;
 }
-div.my-hobbies
+div.my-interest
 {
 	font-style: italic;
 	font-weight:bold;
@@ -168,8 +168,12 @@ p {
 }
 
 #goals h2 {
+	color: #fff;
+	background: #CD8D7A;
 	text-align: center;
 	font-size: 1.5em;
+	padding: 10px;
+	border-radius: 10px;
 	margin-right: 10px;
 }
 
@@ -293,6 +297,8 @@ div.my-hobbies h1 {
 	background: #CD8D7A;
 	text-align: center;
 	font-size: 1.8em;
+	border-radius: 10px;
+	padding: 10px;
 }
 
 h1.countries,
